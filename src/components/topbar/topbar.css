@@ -1,0 +1,58 @@
+/* topbar.css */
+
+.topbar, h1 {
+  text-align: center;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto; /* Center the topbar */
+  text-align: center; /* Center the text */
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%; /* Ensure inputs and buttons take up full width */
+  max-width: 400px; /* Limit max width */
+  margin: 0 auto; /* Center inputs and buttons */
+}
+
+input {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+button {
+  background-color: #6a4c9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5c42a3;
+}
+
+.search-bar {
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  max-width: 400px; /* Limit max width for both text and number inputs */
+  margin: 0 auto;
+}
+
+button {
+  width: auto;
+  max-width: 200px; /* Limit width of the button */
+  margin-top: 10px;
+}

@@ -1,0 +1,62 @@
+/* tableData.css */
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    max-width: 400px; /* Make the cards smaller */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .card-content input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .edit-button,
+  .save-button,
+  .delete-button {
+    background-color: #6a4c9c;
+    color: white;
+    padding: 6px 10px; /* Smaller padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+  }
+  
+  .edit-button:hover,
+  .save-button:hover {
+    background-color: #5c42a3;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
