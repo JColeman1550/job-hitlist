@@ -1,6 +1,6 @@
 # **Hit List** (Job Tracker)
 
-<img src="C:\Users\colew\OneDrive\Desktop\Resillient Coders\demo-day\Pictures\hl_home.png" /> 
+<img src="https://imgur.com/a/NmGgA97" /> 
 
 ## Overview
 Hit List is a web app designed to help users track their job applications. Users can add, edit, delete, and filter job listings, including details like company name, location, and comments.
