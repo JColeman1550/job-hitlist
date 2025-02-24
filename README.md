@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# **Hit List** (Job Tracker)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/user-attachments/assets/2dab0ab1-6469-4741-aad2-bd5c296586a5)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Overview
+Hit List is a web app designed to help users track their job applications. Users can add, edit, delete, and filter job listings, including details like company name, location, and comments.
 
-### `npm start`
+## Features
+- 📝 **Add Job Applications** – Save job details such as company name, location, and notes.
+ ![image](https://github.com/user-attachments/assets/6f8f7c76-0a53-4864-bfba-68f3fca7d5fb)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔍 **Search & Filter** – Quickly find job applications by filtering entries.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ✏️ **Edit Job Listings** – Update job details easily.
 
-### `npm test`
+![image](https://github.com/user-attachments/assets/053b5d32-3576-4e7e-917b-10c87325af59)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🗑️ **Delete Jobs** – Remove applications that are no longer relevant.
+- 
+- 📱 **Responsive Design** – Works seamlessly on different screen sizes.
 
-### `npm run build`
+## 🛠️ Technologies Used
+- **Frontend**: React, CSS 
+- **State Management**: useState (React hooks)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## UI & Styling
+The UI follows a modern card-style layout  and **responsive design** that adjusts button and field sizes dynamically.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation & Setup
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/job-tracker.git
+   cd job-tracker
+   ```
+2. **Install dependencies**:
+   ```sh
+   npm install
+   ```
+3. **Start the development server**:
+   ```sh
+   npm start
+   ```
 
-### `npm run eject`
+## Future Enhancements
+- API Integration for fetching company data.
+- Light/dark mode
+- Job application status tracking (e.g., Interview Scheduled, Offer Received).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any questions, reach out via (https://www.linkedin.com/in/juliantcoleman/).
