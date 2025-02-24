@@ -40,4 +40,4 @@ The UI follows a modern card-style layout  and **responsive design** that adjust
 - Job application status tracking (e.g., Interview Scheduled, Offer Received).
 
 ## Contact
-For any questions, reach out via ([https://twitter.com/JulianTheDev](https://www.linkedin.com/in/juliantcoleman/)).
+For any questions, reach out via https://twitter.com/JulianTheDev.
