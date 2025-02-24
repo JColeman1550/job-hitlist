@@ -1,6 +1,6 @@
 # **Hit List** (Job Tracker)
 
-![Hit list](https://i.imgur.com/NmGgA97.png)
+[(https://i.imgur.com/NmGgA97.png)](https://imgur.com/GDNLlmu)
 
 
 
