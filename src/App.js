@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Topbar from './components/topbar/Topbar';
 import Table from './components/table/Table';
-import ErrorHandler from './components/errorHandler/ErrorHandler';
-import axios from 'axios';
+
 
 const App = () => {
   const [jobs, setJobs] = useState([]);
