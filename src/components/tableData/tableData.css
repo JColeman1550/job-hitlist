@@ -1,11 +1,10 @@
-/* tableData.css */
 .card {
-    background-color: #fff;
+    background-color: #f9f0f9;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
-    max-width: 400px; /* Make the cards smaller */
+    max-width: 400px; 
     width: 100%;
     margin-left: auto;
     margin-right: auto;

@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useState, useEffect } from 'react';
 import Topbar from './components/topbar/Topbar';
 import Table from './components/table/Table';
@@ -9,23 +8,27 @@ const App = () => {
   const [jobs, setJobs] = useState([]);
   const [filteredJobs, setFilteredJobs] = useState([]);
 
+  // add job to list, unique id for each post
   const addJob = (company, location, comment) => {
     const newJob = {
-      id: Date.now(), // Unique ID
+      id: Date.now(), 
       company,
       location,
       comment,
     };
     setJobs([...jobs, newJob]);
-    setFilteredJobs([...filteredJobs, newJob]);
+    // filter jobs alphabetically
+    setFilteredJobs([...filteredJobs, newJob]); 
   };
 
+  // delete job based on unique id in DB
   const deleteJob = (id) => {
     const updatedJobs = jobs.filter((job) => job.id !== id);
     setJobs(updatedJobs);
     setFilteredJobs(updatedJobs);
   };
 
+  // edit job inside card
   const editJob = (id, updatedCompany, updatedLocation, updatedComment) => {
     const updatedJobs = jobs.map((job) => {
       if (job.id === id) {

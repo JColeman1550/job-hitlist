@@ -1,10 +1,8 @@
-/* Center the Table */
 .table-container {
   width: 100%;
-  max-width: 1200px; /* Limit table width */
+  max-width: 1200px; 
   margin: 20px auto;
   padding: 15px;
-  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -21,7 +19,7 @@ table {
 
 th, td {
   padding: 12px;
-  text-align: left; /* Left-align text in table */
+  text-align: left; 
 }
 
 th {
@@ -29,9 +27,6 @@ th {
   color: white;
 }
 
-td {
-  background-color: #f9f9f9;
-}
 
 button {
   background-color: #6a4c9c;
@@ -47,7 +42,7 @@ button:hover {
   background-color: #5c42a3;
 }
 
-/* Responsive table for smaller screens */
+/* responsive table for smaller screens */
 @media (max-width: 768px) {
   table {
     font-size: 12px;

@@ -1,5 +1,3 @@
-/* topbar.css */
-
 .topbar, h1 {
   text-align: center;
 }
@@ -11,22 +9,34 @@
   margin-bottom: 20px;
   max-width: 500px;
   width: 100%;
-  margin: 0 auto; /* Center the topbar */
-  text-align: center; /* Center the text */
+  margin: 0 auto; /* center topbar */
+  text-align: center; 
+}
+
+.target-img {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 input, button {
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #ddd;
-  width: 100%; /* Ensure inputs and buttons take up full width */
-  max-width: 400px; /* Limit max width */
-  margin: 0 auto; /* Center inputs and buttons */
+  width: 100%; 
+  max-width: 400px;
+  margin: 0 auto; /* centers inputs and btns */
 }
 
 input {
-  background-color: #f7f7f7;
-  color: #333;
+  background-color: rgb(238, 233, 233);
+  color: black;
 }
 
 button {
@@ -34,7 +44,6 @@ button {
   color: white;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -47,12 +56,12 @@ button:hover {
 
 input[type="text"], input[type="number"] {
   width: 100%;
-  max-width: 400px; /* Limit max width for both text and number inputs */
+  max-width: 400px; 
   margin: 0 auto;
 }
 
 button {
   width: auto;
-  max-width: 200px; /* Limit width of the button */
+  max-width: 200px; 
   margin-top: 10px;
 }

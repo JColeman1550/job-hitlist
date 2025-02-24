@@ -1,4 +1,3 @@
-// src/components/ErrorHandler/ErrorHandler.jsx
 import React from 'react';
 
 
