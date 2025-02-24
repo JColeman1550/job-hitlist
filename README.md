@@ -3,6 +3,7 @@
 ![Hit list](https://i.imgur.com/NmGgA97.png)
 
 
+
 ## Overview
 Hit List is a web app designed to help users track their job applications. Users can add, edit, delete, and filter job listings, including details like company name, location, and comments.
 
