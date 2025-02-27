@@ -17,7 +17,6 @@ Hit List is a web app designed to help users track their job applications. Users
 ![image](https://github.com/user-attachments/assets/053b5d32-3576-4e7e-917b-10c87325af59)
 
 - 🗑️ **Delete Jobs** – Remove applications that are no longer relevant.
-- 
 - 📱 **Responsive Design** – Works seamlessly on different screen sizes.
 
 ## 🛠️ Technologies Used
