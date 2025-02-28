@@ -27,20 +27,8 @@ Hit List is a web app designed to help users track their job applications. Users
 The UI follows a modern card-style layout  and **responsive design** that adjusts button and field sizes dynamically.
 
 
-## Installation & Setup
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/your-username/job-tracker.git
-   cd job-tracker
-   ```
-2. **Install dependencies**:
-   ```sh
-   npm install
-   ```
-3. **Start the development server**:
-   ```sh
-   npm start
-   ```
+## Link
+https://jobhitlist.netlify.app/
 
 ## Future Enhancements
 - API Integration for fetching company data.
